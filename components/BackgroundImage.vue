@@ -14,7 +14,7 @@ export default {
 <style>
 .backgroundImage {
   position: relative;
-  margin-top: -25px;
+  margin-top: 0px;
   width: 100%;
   height: 344px;
   background-image: url(../static/backgroundImage.jpg);
