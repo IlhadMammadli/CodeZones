@@ -1,5 +1,5 @@
 <template>
-  <div class="headerBox">
+ 
     <div class="menuHeader">
       <div class="headerLeft">
         <div class="logo">
@@ -22,7 +22,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 
@@ -39,11 +38,6 @@
   border: 0;
 }
 
-.headerBox {
-  display: flex;
-  width: 100%;
-}
-
 .menuHeader {
   background-color: #e47500;
   display: flex;
@@ -55,7 +49,6 @@
 
 .headerLeft {
   display: flex;
-  width: 20%;
   height: 100%;
   align-items: center;
   color: white;
@@ -71,7 +64,8 @@
   display: flex;
   height: 100%;
   align-items: center;
-  width: 80%;
+  margin-right: 30px;
+ 
 }
 
 .contactBtn {
@@ -102,7 +96,8 @@ ul {
 }
 
 li {
-  margin-right: 40px;
+  margin-right: 20px;
+  width: 120px;
 }
 
 a {

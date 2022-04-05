@@ -1,7 +1,8 @@
 <template>
-  <div class="backgroundImage">
-    <div class="slogan">
-      <p class="slogan-title">We Made Bigger Your Company</p>
+  <div clas="headerView">
+    <div class="rightTopVector"></div>
+    <div class="bottomVector">
+       <div class="visualImage"></div>
     </div>
   </div>
 </template>
@@ -12,30 +13,41 @@ export default {
 </script>
 
 <style>
-.backgroundImage {
-  position: relative;
-  margin-top: 0px;
+
+.headerView {
+  display: flex;
   width: 100%;
-  height: 344px;
-  background-image: url(../static/backgroundImage.jpg);
-  background-attachment: fixed;
-  background-size: 100% 70%;
+  height: 700px;
 }
 
-.slogan {
-  display: block;
-  position: relative;
-  top: 90px;
+.rightTopVector {
+  display: flex;
   margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 200px;
+  background-image: url("..//static/Vector 3.png");
+  height: 265px;
+  width: 60%;
 }
 
-.slogan-title {
-  text-align: center;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 40px;
+.bottomVector {
+  position: absolute;
+  top: 0;
+  background-image: url("..//static/Vector 1.png");
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
+
+.visualImage {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("..//static/jevi-web-studio-ar-vr 1.png");
+  margin-right: 105px;
+  width: 675px;
+  height: 595px;
+  bottom: 405px;
+}
+
 </style>
