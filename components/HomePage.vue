@@ -105,6 +105,23 @@ a {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
+
+@media (max-width: 1000px) {
+ .menuBox { 
+  display: none;
+ }
+
+.logo { 
+  margin-left: 5px;
+}
+
+.contactBtn { 
+  margin-right: -20px;
+}
+  .headerLeft { 
+
+  }
+}
 </style>
 
 <script>
