@@ -121,6 +121,7 @@
 
 .details { 
   margin-top: 30px;
+  
 }
 
 .getDetails { 
